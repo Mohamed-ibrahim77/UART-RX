@@ -1,0 +1,36 @@
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 22:39:48 on Jul 18,2024
+# vlog -reportprogress 300 -f source_file.txt 
+# -- Compiling module UART_RX_FSM
+# -- Compiling module UART_RX_deserializer
+# -- Compiling module UART_RX_Data_Sampling
+# -- Compiling module UART_RX_edge_bit_counter
+# -- Compiling module UART_RX_Parity_check
+# -- Compiling module UART_RX_Start_check
+# -- Compiling module UART_RX_Stop_check
+# -- Compiling module UART_RX_Top
+# -- Compiling module UART_RX_TB
+# 
+# Top level modules:
+# 	UART_RX_TB
+# End time: 22:39:48 on Jul 18,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.UART_RX_TB 
+# Start time: 22:39:48 on Jul 18,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.UART_RX_TB(fast)
+# Loading work.UART_RX_Top(fast)
+# Loading work.UART_RX_edge_bit_counter(fast)
+# Loading work.UART_RX_Data_Sampling(fast)
+# Loading work.UART_RX_FSM(fast)
+# Loading work.UART_RX_Parity_check(fast)
+# Loading work.UART_RX_Start_check(fast)
+# Loading work.UART_RX_Stop_check(fast)
+# Loading work.UART_RX_deserializer(fast)
+
+# Received parallel output: 10100101
+
+# ** Note: $stop    : UART_RX_TB.v(97)
+#    Time: 1180 ns  Iteration: 0  Instance: /UART_RX_TB
